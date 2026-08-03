@@ -1,13 +1,13 @@
-# amazingrando-skills
+# skills
 
 Agent skills by [Randy Oest](mailto:oest@amazingrando.com) — small, composable, and installable into any coding agent.
 
 ## Quickstart
 
-Install with the [skills.sh](https://skills.sh) CLI (replace `amazingrando` with your GitHub username if different):
+Install with the [skills.sh](https://skills.sh) CLI:
 
 ```bash
-npx skills@latest add amazingrando/amazingrando-skills
+npx skills@latest add amazingrando/skills
 ```
 
 Pick the skills you want and which agents to install them on. That's it.
@@ -43,4 +43,4 @@ area, add a `skills/in-progress/` folder and simply leave those paths out of
 
 ## License
 
-[MIT](./LICENSE)
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) — see [LICENSE](./LICENSE).
