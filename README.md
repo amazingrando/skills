@@ -15,24 +15,21 @@ Pick the skills you want and which agents to install them on. That's it.
 ## What's in here
 
 Each skill lives in its own folder under `skills/<category>/<skill-name>/` and
-contains a `SKILL.md`. Skills are grouped into three categories:
+contains a `SKILL.md`. Right now everything is under **design**:
 
-- **[Engineering](./skills/engineering/)** — code work: building, debugging, testing, refactoring.
-- **[Productivity](./skills/productivity/)** — non-code workflow tools: planning, writing, communication.
-- **[Misc](./skills/misc/)** — one-off tools kept around but used rarely.
+- **[Design](./skills/design/)** — UX evaluation, design QA, and design-to-product comparison.
 
 ## Reference
 
-<!-- List each installable skill here with a one-line summary and a link. -->
+### Design
 
-### Productivity
-
-- **[example-skill](./skills/productivity/example-skill/SKILL.md)** — Template showing the required structure. Replace with your own.
+- **[design-eval](./skills/design/design-eval/SKILL.md)** — Structured UX/UI evaluation grounded in Nielsen, Shneiderman, Gerhardt-Powals, Fogg (B=MAP), and Laws of UX.
+- **[compare-design-to-product](./skills/design/compare-design-to-product/SKILL.md)** — Compare a Figma design to a live-product screenshot and report meaningful drift (not pixel-perfect diffs).
 
 ## Adding a skill
 
 1. Create a folder under the right category: `skills/<category>/<skill-name>/`.
-2. Add a `SKILL.md` with `name` + `description` frontmatter (see the example skill).
+2. Add a `SKILL.md` with `name` + `description` frontmatter (see an existing skill).
 3. Register the folder path in [`.claude-plugin/plugin.json`](./.claude-plugin/plugin.json).
 4. Add it to the Reference list above.
 
